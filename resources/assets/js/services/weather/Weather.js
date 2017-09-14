@@ -7,7 +7,7 @@ class Weather {
 
         const query = `select item.condition from weather.forecast where woeid in (select woeid from geo.places(1) where text='${city}') and u='c'`;
 
-        const response = await this.performQuery(query);
+        const response dz= await this.performQuery(query);
 
         return response.data.query.results.channel.item.condition;
     }
