@@ -19,9 +19,10 @@ class ListenForMentions extends Command
         app(TwitterStreamingApi::class)
             ->publicStream()
             ->whenHears([
-                'spatie.be',
-                '@spatie_be',
-                'github.com/spatie',
+                'Brightsource',
+                '@laravelphp',
+                '@BrightsourceUK',
+                'Laravel',
             ], function (array $tweetProperties) {
                 event(new Mentioned($tweetProperties));
             })

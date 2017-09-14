@@ -10,11 +10,11 @@
     <music position="c1:d1"></music>
     <uptime position="b3"></uptime>
 
-    <tasks team-member="Jermaine" position="c2"></tasks>
-    <tasks team-member="Lakshmi" position="d2"></tasks>
-    <tasks team-member="Sam" position="c3"></tasks>
-    <tasks team-member="Vanessa" position="d3"></tasks>
-    <tasks team-member="Mariusz" position="e2"></tasks>
+    <tasks team-member="jermaine" position="c2"></tasks>
+    <tasks team-member="lakshmi" position="d2"></tasks>
+    <tasks team-member="sam" position="c3"></tasks>
+    <tasks team-member="vanessa" position="d3"></tasks>
+    <tasks team-member="mariusz" position="e2"></tasks>
 
     <time-weather position="e1" date-format="ddd DD/MM"></time-weather>
     <!-- <packagist position="e2"></packagist> -->
